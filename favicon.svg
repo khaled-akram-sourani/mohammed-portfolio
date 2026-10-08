@@ -1,22 +1,22 @@
 <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="180" height="180" rx="36" fill="#0a1f1e"/>
+  <rect width="180" height="180" rx="36" fill="#09111f"/>
   <rect width="180" height="180" rx="36" fill="url(#bg)"/>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0a1f1e"/>
-      <stop offset="100%" stop-color="#0f2d2a"/>
+      <stop offset="0%" stop-color="#09111f"/>
+      <stop offset="100%" stop-color="#142744"/>
     </linearGradient>
-    <linearGradient id="teal" x1="30" y1="30" x2="150" y2="150" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#14B8A6"/>
-      <stop offset="100%" stop-color="#22C55E"/>
+    <linearGradient id="blue" x1="30" y1="30" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4b91ff"/>
+      <stop offset="100%" stop-color="#70d8ed"/>
     </linearGradient>
   </defs>
   <!-- outer ring -->
-  <circle cx="90" cy="90" r="72" stroke="url(#teal)" stroke-width="2" opacity="0.3"/>
+  <circle cx="90" cy="90" r="72" stroke="url(#blue)" stroke-width="2" opacity="0.3"/>
   <!-- inner ring -->
-  <circle cx="90" cy="90" r="60" stroke="url(#teal)" stroke-width="1.5" opacity="0.15"/>
+  <circle cx="90" cy="90" r="60" stroke="url(#blue)" stroke-width="1.5" opacity="0.15"/>
   <!-- M letter -->
-  <text x="90" y="104" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" text-anchor="middle" fill="url(#teal)">M</text>
+  <text x="90" y="104" font-family="Manrope, sans-serif" font-size="58" font-weight="800" text-anchor="middle" fill="url(#blue)">M</text>
   <!-- small dot accent -->
-  <circle cx="90" cy="148" r="4" fill="url(#teal)" opacity="0.7"/>
+  <circle cx="90" cy="148" r="4" fill="url(#blue)" opacity="0.7"/>
 </svg>
